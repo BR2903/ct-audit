@@ -1,0 +1,48 @@
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A48D: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A4A1: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A4B5: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A4C9: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A4DD: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A4F1: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A505: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 
+==41456== Conditional jump or move depends on uninitialised value(s)
+==41456==    at 0x10A519: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41456==    by 0x109B22: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41456==    by 0x109609: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41456==    by 0x109309: main (../../harness_v2.c:21)
+==41456== 

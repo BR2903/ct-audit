@@ -1,0 +1,241 @@
+K=2 clang-15 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-15 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-15 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-15 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-15 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-15 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-16 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-16 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-16 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-16 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-16 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-16 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-17 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-17 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-17 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-17 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-17 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-17 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-18 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-18 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-18 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-18 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-18 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-18 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-15 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-15 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-15 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-15 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-15 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-15 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-16 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-16 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-16 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-16 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-16 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-16 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-17 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-17 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-17 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-17 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-17 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-17 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-18 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-18 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-18 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-18 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-18 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-18 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-15 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-15 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-15 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-15 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-15 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-15 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-16 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-16 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-16 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-16 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-16 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-16 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-17 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-17 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-17 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-17 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-17 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-17 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-18 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-18 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-18 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-18 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-18 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-18 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+commit: d5b791c
+K=2 gcc-11 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-11 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-11 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-11 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-11 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-11 [-O2 -fno-tree-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-12 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-12 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-12 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-12 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-12 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-12 [-O2 -fno-tree-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-13 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-13 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-13 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-13 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-13 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-13 [-O2 -fno-tree-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-14 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-14 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-14 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-14 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-14 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 gcc-14 [-O2 -fno-tree-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-11 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-11 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-11 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-11 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-11 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-11 [-O2 -fno-tree-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-12 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-12 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-12 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-12 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-12 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-12 [-O2 -fno-tree-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-13 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-13 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-13 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-13 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-13 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-13 [-O2 -fno-tree-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-14 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-14 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-14 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-14 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-14 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 gcc-14 [-O2 -fno-tree-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-11 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-11 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-11 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-11 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-11 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-11 [-O2 -fno-tree-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-12 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-12 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-12 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-12 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-12 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-12 [-O2 -fno-tree-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-13 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-13 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-13 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-13 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-13 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-13 [-O2 -fno-tree-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-14 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-14 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-14 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-14 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-14 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 gcc-14 [-O2 -fno-tree-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-19 [-O0] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-19 [-O1] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-19 [-O2] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-19 [-O3] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-19 [-Os] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-19 [-O2 -fno-vectorize] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-20 [-O0] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-20 [-O1] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-20 [-O2] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-20 [-O3] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-20 [-Os] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-20 [-O2 -fno-vectorize] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-21 [-O0] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-21 [-O1] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-21 [-O2] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-21 [-O3] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-21 [-Os] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-21 [-O2 -fno-vectorize] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-22 [-O0] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-22 [-O1] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-22 [-O2] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-22 [-O3] -> ubicaciones con fuga: 0
+VULNERABLE b628ba7 clang-22 [-Os] -> ubicaciones con fuga: 1
+VULNERABLE b628ba7 clang-22 [-O2 -fno-vectorize] -> ubicaciones con fuga: 1
+K=2 clang-19 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-19 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-19 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-19 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-19 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-19 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-20 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-20 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-20 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-20 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-20 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-20 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-21 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-21 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-21 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-21 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-21 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-21 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-22 [-O0] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-22 [-O1] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-22 [-O2] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-22 [-O3] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-22 [-Os] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=2 clang-22 [-O2 -fno-vectorize] -> Kyber512: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-19 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-19 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-19 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-19 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-19 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-19 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-20 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-20 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-20 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-20 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-20 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-20 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-21 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-21 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-21 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-21 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-21 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-21 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-22 [-O0] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-22 [-O1] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-22 [-O2] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-22 [-O3] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-22 [-Os] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=3 clang-22 [-O2 -fno-vectorize] -> Kyber768: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-19 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-19 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-19 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-19 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-19 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-19 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-20 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-20 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-20 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-20 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-20 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-20 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-21 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-21 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-21 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-21 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-21 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-21 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-22 [-O0] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-22 [-O1] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-22 [-O2] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-22 [-O3] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-22 [-Os] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0
+K=4 clang-22 [-O2 -fno-vectorize] -> Kyber1024: 10/10 decaps correctos | ubicaciones con fuga: 0

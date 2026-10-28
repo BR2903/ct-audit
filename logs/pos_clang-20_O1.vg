@@ -1,0 +1,6 @@
+==41036== Conditional jump or move depends on uninitialised value(s)
+==41036==    at 0x10A268: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==41036==    by 0x109A54: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==41036==    by 0x10958C: pqcrystals_kyber512_ref_dec (kem.c:114)
+==41036==    by 0x1092D9: main (../../harness_v2.c:21)
+==41036== 

@@ -1,0 +1,6 @@
+==31284== Conditional jump or move depends on uninitialised value(s)
+==31284==    at 0x10A007: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==31284==    by 0x10990E: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==31284==    by 0x1094D6: pqcrystals_kyber512_ref_dec (kem.c:114)
+==31284==    by 0x10925C: main (../../harness.c:17)
+==31284== 

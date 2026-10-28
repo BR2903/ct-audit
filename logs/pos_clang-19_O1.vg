@@ -1,0 +1,6 @@
+==40879== Conditional jump or move depends on uninitialised value(s)
+==40879==    at 0x10A258: pqcrystals_kyber512_ref_poly_frommsg (poly.c:178)
+==40879==    by 0x109A44: pqcrystals_kyber512_ref_indcpa_enc (indcpa.c:269)
+==40879==    by 0x10958C: pqcrystals_kyber512_ref_dec (kem.c:114)
+==40879==    by 0x1092D9: main (../../harness_v2.c:21)
+==40879== 
