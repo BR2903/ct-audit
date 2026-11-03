@@ -6,10 +6,12 @@
 # Rol:   auditoria | control_positivo | control_negativo
 # Ej.:   ./matriz.sh auditoria standard "2 3 4" "clang-18 clang-22 gcc-14"
 #        ./matriz.sh control_positivo b628ba7 "2" "clang-20" 10
+# Flags personalizados (separados por ;) con la variable FLAGS:
+#        FLAGS="-O2 -flto;-Os -march=native;-Oz" ./matriz.sh auditoria standard "2" "clang-18"
 
 set -u
 if [ $# -lt 4 ]; then
-  sed -n '2,9p' "$0"; exit 1
+  sed -n '2,11p' "$0"; exit 1
 fi
 ROL=$1; REF=$2; KS=$3; CCS=$4; ITERS=${5:-10}
 ROOT=${CT_ROOT:-$HOME/ct-audit}
@@ -33,8 +35,13 @@ for k in $KS; do
     # GCC y Clang usan flags distintos para desactivar la vectorización
     case $cc in gcc*) NOVEC="-O2 -fno-tree-vectorize" ;; *) NOVEC="-O2 -fno-vectorize" ;; esac
 
-    for opt in "-O0" "-O1" "-O2" "-O3" "-Os" "$NOVEC"; do
-      bin=/tmp/m_${COMMIT}_${k}_${cc}_$(echo "$opt" | tr -d ' -')
+    if [ -n "${FLAGS:-}" ]; then
+      IFS=';' read -r -a OPTS <<< "$FLAGS"
+    else
+      OPTS=("-O0" "-O1" "-O2" "-O3" "-Os" "$NOVEC")
+    fi
+    for opt in "${OPTS[@]}"; do
+      bin=/tmp/m_${COMMIT}_${k}_${cc}_$(echo "$opt" | tr -d ' -' | tr '=' '_')
 
       if ! $cc $opt -g -DKYBER_K=$k -I. "$HARNESS" $SRC -o "$bin" 2>/tmp/cc.err; then
         echo "$FECHA,pq-crystals-ref,$COMMIT,$ROL,decaps,$k,$cc,\"$VER\",\"$opt\",harness_v2,$ITERS,,,,,,\"error de compilación\"" >> "$CSV"
@@ -45,6 +52,15 @@ for k in $KS; do
       OUT=$(valgrind -q "$bin" "$ITERS" 2>"$bin.vg")
       OK=$(echo "$OUT"  | sed -n 's/.*: \([0-9]*\)\/[0-9]* decaps.*/\1/p')
       TOT=$(echo "$OUT" | sed -n 's/.*: [0-9]*\/\([0-9]*\) decaps.*/\1/p')
+
+      # Si el programa no terminó bien (p. ej. SIGILL por instrucciones que Valgrind no soporta),
+      # NO es un resultado limpio: se registra como error y se pasa a la siguiente configuración.
+      if [ -z "$OK" ] || grep -q "Process terminating" "$bin.vg"; then
+        MOTIVO=$(grep -m1 -o "signal [0-9]* ([A-Z]*)" "$bin.vg")
+        echo "$FECHA,pq-crystals-ref,$COMMIT,$ROL,decaps,$k,$cc,\"$VER\",\"$opt\",harness_v2,$ITERS,,,,,,\"error de ejecución ${MOTIVO}\"" >> "$CSV"
+        echo "K=$k $cc [$opt] -> ERROR DE EJECUCIÓN ${MOTIVO} (ver $bin.vg)"
+        continue
+      fi
       REP=$(grep -c 'Conditional jump\|Use of uninit' "$bin.vg")
       LOCS=$(grep -A1 'Conditional jump\|Use of uninit' "$bin.vg" | grep ' at ' | sed 's/.*: //' | sort -u)
       N=$(printf '%s' "$LOCS" | grep -c .)
