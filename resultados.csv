@@ -1,0 +1,275 @@
+fecha,libreria,commit,rol,operacion,kyber_k,compilador,version_compilador,flags,harness,iteraciones,decaps_ok,decaps_total,reportes_valgrind,ubicaciones_fuga,detalle_ubicaciones,notas
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-15,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-15,,-O1,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-15,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-15,,-Os,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-16,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-16,,-O1,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-16,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-16,,-Os,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-17,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-17,,-O1,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-17,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-17,,-Os,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-18,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-18,,-O1,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-18,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-18,,-Os,harness_v1,1,1,1,1,1,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-18,,-O2 -fno-vectorize,harness_v1,1,,,8,,,fase 1; 8 reportes por loop unrolling (una sola fuga en poly_frommsg); decaps no registrado
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-15,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-15,,-O1,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-15,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-15,,-Os,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-16,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-16,,-O1,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-16,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-16,,-Os,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-17,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-17,,-O1,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-17,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-17,,-Os,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-18,,-O0,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-18,,-O1,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-18,,-O2,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-18,,-Os,harness_v1,1,1,1,0,0,,fase 1; recuperado de la salida de terminal
+,pq-crystals-ref,9b8d306,control_negativo,decaps,2,clang-18,,-O2 -fno-vectorize,harness_v1,1,,,0,0,,fase 1; decaps no registrado
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-15,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-15,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-15,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-15,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-15,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-15,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-16,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-16,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-16,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-16,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-16,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-16,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-17,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-17,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-17,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-17,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-17,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-17,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-18,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-18,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-18,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-18,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-18,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-18,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-15,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-15,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-15,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-15,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-15,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-15,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-16,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-16,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-16,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-16,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-16,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-16,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-17,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-17,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-17,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-17,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-17,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-17,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-18,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-18,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-18,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-18,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-18,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-18,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-15,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-15,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-15,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-15,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-15,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-15,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-16,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-16,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-16,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-16,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-16,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-16,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-17,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-17,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-17,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-17,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-17,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-17,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-18,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-18,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-18,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-18,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-18,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-18,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-11,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-11,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-11,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-11,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-11,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-11,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-12,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-12,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-12,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-12,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-12,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-12,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-13,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-13,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-13,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-13,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-13,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-13,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-14,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-14,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-14,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-14,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-14,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,gcc-14,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-11,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-11,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-11,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-11,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-11,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-11,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-12,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-12,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-12,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-12,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-12,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-12,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-13,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-13,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-13,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-13,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-13,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-13,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-14,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-14,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-14,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-14,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-14,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,gcc-14,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-11,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-11,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-11,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-11,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-11,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-11,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-12,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-12,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-12,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-12,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-12,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-12,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-13,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-13,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-13,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-13,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-13,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-13,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-14,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-14,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-14,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-14,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-14,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,gcc-14,,-O2 -fno-tree-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-19,,-O0,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-19,,-O1,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-19,,-O2,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-19,,-O3,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-19,,-Os,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-19,,-O2 -fno-vectorize,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-20,,-O0,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-20,,-O1,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-20,,-O2,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-20,,-O3,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-20,,-Os,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-20,,-O2 -fno-vectorize,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-21,,-O0,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-21,,-O1,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-21,,-O2,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-21,,-O3,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-21,,-Os,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-21,,-O2 -fno-vectorize,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-22,,-O0,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-22,,-O1,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-22,,-O2,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-22,,-O3,harness_v2,10,,,,0,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-22,,-Os,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,b628ba7,control_positivo,decaps,2,clang-22,,-O2 -fno-vectorize,harness_v2,10,,,,1,,fase 2a; decaps no registrado
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-19,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-19,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-19,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-19,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-19,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-19,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-20,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-20,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-20,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-20,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-20,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-20,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-21,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-21,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-21,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-21,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-21,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-21,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-22,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-22,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-22,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-22,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-22,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,2,clang-22,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-19,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-19,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-19,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-19,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-19,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-19,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-20,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-20,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-20,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-20,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-20,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-20,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-21,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-21,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-21,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-21,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-21,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-21,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-22,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-22,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-22,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-22,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-22,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,3,clang-22,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-19,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-19,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-19,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-19,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-19,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-19,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-20,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-20,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-20,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-20,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-20,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-20,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-21,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-21,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-21,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-21,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-21,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-21,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-22,,-O0,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-22,,-O1,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-22,,-O2,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-22,,-O3,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-22,,-Os,harness_v2,10,10,10,,0,,fase 2a
+,pq-crystals-ref,d5b791c,auditoria,decaps,4,clang-22,,-O2 -fno-vectorize,harness_v2,10,10,10,,0,,fase 2a
