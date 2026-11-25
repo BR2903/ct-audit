@@ -11,11 +11,13 @@
 #                           (MLK_CONFIG_NO_ASM_VALUE_BARRIER) en vez del de asm
 #   CANARIO=1               control positivo: compila una COPIA TEMPORAL del código
 #                           con un branch secreto inyectado a propósito en decaps.
-#                           El repositorio de mlkem-native no se modifica.
+#   ABLACION=1              quita los value barriers de assembly de mlkem/src/verify.h
+#                           (las funciones mlk_value_barrier_*) en una COPIA TEMPORAL.
+#   CANARIO y ABLACION nunca modifican el repositorio de mlkem-native.
 
 set -u
 if [ $# -lt 4 ]; then
-  sed -n '2,16p' "$0"; exit 1
+  sed -n '2,18p' "$0"; exit 1
 fi
 ROL=$1; REF=$2; LVLS=$3; CCS=$4; ITERS=${5:-10}
 ROOT=${CT_ROOT:-$HOME/ct-audit}
@@ -32,13 +34,25 @@ EXTRA=""
 [ "$BARRIER" = "volatile" ] && EXTRA="-DMLK_CONFIG_NO_ASM_VALUE_BARRIER"
 NOTA="barrier=$BARRIER"
 
-if [ "${CANARIO:-0}" = "1" ]; then
+if [ "${CANARIO:-0}" = "1" ] || [ "${ABLACION:-0}" = "1" ]; then
   TMP=$(mktemp -d)
   cp -r "$REPO/mlkem" "$TMP/"
+  SRCDIR=$TMP/mlkem
+fi
+
+if [ "${ABLACION:-0}" = "1" ]; then
+  N=$(grep -c '__asm__ volatile("" : "+r"(b));' "$TMP/mlkem/src/verify.h")
+  sed -i 's|__asm__ volatile("" : "+r"(b));|/* ABLACION: value barrier eliminado */|' "$TMP/mlkem/src/verify.h"
+  [ "$N" -gt 0 ] && ! grep -q '__asm__ volatile("" : "+r"(b));' "$TMP/mlkem/src/verify.h" \
+    || { echo "No se pudieron quitar los value barriers"; exit 1; }
+  echo "Ablación: $N value barriers de assembly eliminados (copia temporal)"
+  NOTA="$NOTA;ablacion_sin_barrier"
+fi
+
+if [ "${CANARIO:-0}" = "1" ]; then
   sed -i '/fail = mlk_ct_memcmp(ct, tmp, MLKEM_INDCCA_CIPHERTEXTBYTES);/a\  { static volatile int canario; if (fail) canario++; } /* CANARIO */' \
       "$TMP/mlkem/src/kem.c"
   grep -q CANARIO "$TMP/mlkem/src/kem.c" || { echo "No se pudo inyectar el canario"; exit 1; }
-  SRCDIR=$TMP/mlkem
   NOTA="$NOTA;canario"
 fi
 
@@ -87,5 +101,5 @@ for lvl in $LVLS; do
     done
   done
 done
-[ "${CANARIO:-0}" = "1" ] && rm -rf "$TMP"
+[ -n "${TMP:-}" ] && rm -rf "$TMP"
 echo "Listo. Resultados agregados a $CSV"
